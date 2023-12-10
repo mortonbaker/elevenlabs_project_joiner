@@ -20,8 +20,8 @@ def text_to_speech(text, filename, voice_id, model_id):
         "text": text,
         "voice_settings": {
             "similarity_boost": .75,  # Default values
-            "stability": .5,
-            "style": .15,
+            "stability": .85,
+            "style": .1,
             "use_speaker_boost": False
         }
     }
